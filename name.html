@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/fluency/2x/facebook-new.png">
+    <title>Facebook</title>
+<style>
+.center{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+border:none;
+padding-top:10px;
+margin:100px;
+ margin-left:450px;
+ margin-right:450px;
+ padding-bottom:20px;
+ background-color: rgb(229, 231, 233);
+ box-shadow: 5px 10px 8px #888888;
+ 
+}
+
+.space input{  padding:5px;
+    outline:none;
+}
+.acc h6{padding-top:1px;
+}
+.acc{padding-top:300px;
+    
+}
+
+
+ 
+.deco{border:none;
+ background-color: #166FE5;
+ border-radius: 5px;
+ color: aliceblue;
+cursor:pointer ;
+ padding: 10px 180px;
+ 
+}
+</style>
+</head>
+<body style="background-color :#FFFFFF;">
+   
+    <div class="center" id="First name">
+        <h5><span style="font-family:Arial, Helvetica, sans-serif;">What's Your Name?</span></h5>
+    <form class="space"  > 
+    <label for="First name"></label>
+<input  type="text" placeholder="First name" name="First name"   onclick="openButton()" required>
+<label for="Last name"></label>
+<input type="text" placeholder="Last name" id="Last name" required>
+<br>
+ <h5 style="color:gray;" id="gg">Using your real name makes it easier for friends to recognize you.</h5>
+ <button class="deco"  id="gg" onclick="closeHover()" formaction="date.html">Login</button>
+</form>
+<div class="acc">
+    <hr class="scc">
+    <a style="text-decoration: none; font-family:Arial, Helvetica, sans-serif;" href="#"><h6><br>Already have an account?</h6></a> 
+</div>
+
+ 
+
+ <script>
+ function openButton(){
+    document.getElementById("gg").style.display ="block"; 
+} 
+ function openButton(){
+document.getElementById("gg").style.display ="none";
+ }
+ </script>
+
+</body>
+</html>
